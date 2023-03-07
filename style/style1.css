@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Pluto";
+ scroll-behavior: smooth;
+}
+
+#top {
+    /* Parte com foto e SOBRE */
+  background-image: url(../IMG/linhas.svg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: 80% 1%;
+  background-color: #0d1117;
+  height: 700px;
+  width: auto;
+}
+
+header {
+  padding-top: 60px;
+  color: aliceblue;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 600px;
+}
+
+header .logo {
+    /* Juste da logo */
+  margin-right: 40px;
+}
+
+header a {
+    /* Cor forma e espaço do MENU */
+  color: aliceblue;
+  font-weight: 200;
+  margin: 5px;
+}
+.barraSeparadora {
+    /* Barra que separa o MENU */
+  color: rgb(210, 153, 30);
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.Oi {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-right: 400px;
+  color: aliceblue;
+}
+
+.Oi img {
+  width: 350px;
+  margin-left: 50px;
+  margin-top: -58px;
+}
+
+#texto{
+    margin-top: 3%;
+    font-size: 35px;
+}
+
+.Oi h2 {
+
+    color: #FFA200;
+    line-height: 75%;
+}
+
+.Oi h1 {
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 150%;
+}
+
+
+.sobre {
+  background-image: url(../IMG/linhas.svg);
+  background-repeat: no-repeat;
+  background-size: 700px;
+  background-position: 10% 40%;
+  background-color: #0d1117;
+  height: 900px;
+  width: auto;
+  color:#ffffff;
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  }
+
+  .sobre h1 {
+position: absolute;
+width: 295px;
+height: 81px;
+left: 1110px;
+top: 810px;
+font-family: 'Pluto';
+font-style: normal;
+font-weight: 900;
+font-size: 92.742px;
+line-height: 87.5%;
+letter-spacing: -0.155em;
+color: #0a0e13;
+transform: rotate(90.13deg);
+}
+
+.base {
+    width: 300px;
+    height: 600px;
+    background-color: #0a0e13;
+    padding: 40px;
+    padding-top: 120px;
+    margin-top: 5px;
+    margin-left: 150px;
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+
+}
+
+
+
+
+
+
+
+
+
+
+.slide {
+    background-color: #FFA200;
+    width: auto;
+    height: 600px;
+  }
