@@ -6,67 +6,6 @@
   scroll-behavior: smooth;
 }
 
-#top {
-  /* Parte com foto e SOBRE */
-  background-repeat: no-repeat;
-  background-size: 700px;
-  background-position: 80% 1%;
-  background-color: #0f151d;
-  height: 700px;
-  width: auto;
-  position: relative;
-}
-
-.Oi {
-  display: flex;
-  margin-top: 150px;
-  margin-right: 400px;
-  color: aliceblue;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.fotoebarra {
-  position: relative
-}
-
-.foto img {
-  z-index: 3;
-  width: 350px;
-  margin-left: -250px;
-  margin-top: -62px;
-  position: relative;
-}
-
-.barraTop img{
-  position: absolute;
-  width: 700%;
-  left: -113%;
-  top: -270px;
-}
-
-@media (max-width: 1256px) {
-  .barraTop img{
-    position: absolute;
-    width: 600%;
-    left: -113%;
-    top: -210px;
-  }
-}
-
-#texto {
-  margin-top: -100px;
-  font-size: 35px;
-  text-align: left;
-  margin-right: 300px;
-}
-
-
-
-
-
-
 header {
   padding-top: 60px;
   color: aliceblue;
@@ -100,83 +39,45 @@ header a {
 
 
 
-.Oi h2 {
-  color: #ffa200;
-  line-height: 75%;
+
+
+
+
+
+.box.type-1 {
+
 }
 
-.Oi h1 {
-  font-weight: 300;
-  color: #ffffff;
-  line-height: 150%;
+.box.type-2 {
+
 }
 
-.sobre {
-  background-color: #0f151d;
-  height: 900px;
-  width: auto;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  font-weight: 200;
+.box.type-1 {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
 }
 
-.h1About {
-  position: relative;
+.box.type-1-show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.h1About h1 {
-  position: absolute;
-  width: 295px;
-  height: 81px;
-  left: 420px;
-  top: 120px;
-  font-family: "Pluto";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 92.742px;
-  line-height: 87.5%;
-  letter-spacing: -0.155em;
-  color: #16213c;
-  transform: rotate(90.13deg);
+.box.type-2 {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1s ease, transform 1s ease;
 }
 
-.base {
-  width: 300px;
-  height: 600px;
-  background-color: #16213c;
-  padding: 40px;
-  padding-top: 80px;
-  margin-top: 15px;
-  margin-left: 150px;
-  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
+.box.type-3 {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 2s ease, transform 1s ease;
 }
 
-.base p {
-  transform: skewY(-15deg);
-  line-height: 22pt;
-  font-size: 15px;
-}
-
-.barraLateral {
-  position: relative;
-}
-
-.barraLateral img {
-  position: absolute;
-  width: 700px;
-  left: -590px;
-  top: 135px;
+.box.type-2-show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 
-
-
-
-
-
-.slide {
-  background-color: #ffa200;
-  width: auto;
-  height: 600px;
-}

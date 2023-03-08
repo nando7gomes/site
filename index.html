@@ -5,26 +5,31 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/home.css">
   <link rel="stylesheet" href="style/style1.css" />
+  <link rel="stylesheet" href="style/sobre.css">
+  <link rel="stylesheet" href="style/slide.css">
   <title>F7G</title>
 </head>
 
 <body>
-  <section id="top">
+
+  <section id="home">
+
     <header>
       <img class="logo" src="IMG/Logo.svg" alt="Logo" />
-      <ul>
-        <a href="#sobreMim">About</a>
-        <a class="barraSeparadora" href="#">|</a>
-        <a href="#">Portfolio</a>
-        <a class="barraSeparadora" href="#">|</a>
-        <a href="#">Contact</a>
-      </ul>
+        <ul>
+          <a href="#sobreMim">About</a>
+          <a class="barraSeparadora" href="#">|</a>
+          <a href="#">Portfolio</a>
+          <a class="barraSeparadora" href="#">|</a>
+          <a href="#">Contact</a>
+        </ul>
     </header>
 
 
 
-    <section class="Oi">
+    <div class="hyIam">
 
                         <div id="texto">
                           <h1>Hy! I Am</h1>
@@ -40,7 +45,7 @@
         </div>
       </div>
 
-    </section>
+    </div>
 
   </section>
 
@@ -48,10 +53,10 @@
 
   <section class="sobre">
 
-    <div class="barraLateral">
+    <div class="box type-2">
       <img src="IMG/linhas.svg" alt="">
     </div>
-
+    <div class="box type-1">
     <div class="h1About">
       <h1>ABOUT</h1>
     </div>
@@ -70,10 +75,82 @@
         software and apps. I believe that technology has the power to transform the way we live and work.
 
       </p>
+
     </div>
+</div>
   </section>
 
-  <section class="slide"></section>
+  <section class="slide">
+
+
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="IMG/ABRIL FINAL copy.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="IMG/ANTARTICA.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="IMG/LAND2.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="IMG/PAGES copy.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+
+
+  </section>
+
+
+  <div class="box type-1">
+    <h2>Div 1</h2>
+    <p>Conteúdo da Div 1</p>
+  </div>
+  <div class="box type-2">
+    <h2>Div 2</h2>
+    <p>Conteúdo da Div 2</p>
+  </div>
+  <div class="box type-1">
+    <h2>Div 3</h2>
+    <p>Conteúdo da Div 3</p>
+  </div>
+
+
+
 </body>
+
+<!-- #include file="galeria.html" -->
+<script src="slide.js"></script>
+<script src="efeito.js"></script>
+
+
 
 </html>
