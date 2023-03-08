@@ -3,19 +3,69 @@
   padding: 0;
   text-decoration: none;
   font-family: "Pluto";
- scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 #top {
-    /* Parte com foto e SOBRE */
-  background-image: url(../IMG/linhas.svg);
+  /* Parte com foto e SOBRE */
   background-repeat: no-repeat;
   background-size: 700px;
   background-position: 80% 1%;
-  background-color: #0d1117;
+  background-color: #0f151d;
   height: 700px;
   width: auto;
+  position: relative;
 }
+
+.Oi {
+  display: flex;
+  margin-top: 150px;
+  margin-right: 400px;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fotoebarra {
+  position: relative
+}
+
+.foto img {
+  z-index: 3;
+  width: 350px;
+  margin-left: -250px;
+  margin-top: -62px;
+  position: relative;
+}
+
+.barraTop img{
+  position: absolute;
+  width: 700%;
+  left: -113%;
+  top: -270px;
+}
+
+@media (max-width: 1256px) {
+  .barraTop img{
+    position: absolute;
+    width: 600%;
+    left: -113%;
+    top: -210px;
+  }
+}
+
+#texto {
+  margin-top: -100px;
+  font-size: 35px;
+  text-align: left;
+  margin-right: 300px;
+}
+
+
+
+
+
 
 header {
   padding-top: 60px;
@@ -29,99 +79,95 @@ header {
 }
 
 header .logo {
-    /* Juste da logo */
+  /* Juste da logo */
   margin-right: 40px;
 }
 
 header a {
-    /* Cor forma e espaço do MENU */
+  /* Cor forma e espaço do MENU */
   color: aliceblue;
   font-weight: 200;
   margin: 5px;
 }
 .barraSeparadora {
-    /* Barra que separa o MENU */
+  /* Barra que separa o MENU */
   color: rgb(210, 153, 30);
   font-weight: 200;
   font-size: 25px;
 }
 
-.Oi {
-  display: flex;
-  justify-content: center;
-  margin-top: 150px;
-  margin-right: 400px;
-  color: aliceblue;
-}
 
-.Oi img {
-  width: 350px;
-  margin-left: 50px;
-  margin-top: -58px;
-}
 
-#texto{
-    margin-top: 3%;
-    font-size: 35px;
-}
+
 
 .Oi h2 {
-
-    color: #FFA200;
-    line-height: 75%;
+  color: #ffa200;
+  line-height: 75%;
 }
 
 .Oi h1 {
-    font-weight: 300;
-    color: #ffffff;
-    line-height: 150%;
+  font-weight: 300;
+  color: #ffffff;
+  line-height: 150%;
 }
 
-
 .sobre {
-  background-image: url(../IMG/linhas.svg);
-  background-repeat: no-repeat;
-  background-size: 700px;
-  background-position: 10% 40%;
-  background-color: #0d1117;
+  background-color: #0f151d;
   height: 900px;
   width: auto;
-  color:#ffffff;
+  color: #ffffff;
   display: flex;
   justify-content: center;
   font-weight: 200;
-  }
+}
 
-  .sobre h1 {
-position: absolute;
-width: 295px;
-height: 81px;
-left: 1110px;
-top: 810px;
-font-family: 'Pluto';
-font-style: normal;
-font-weight: 900;
-font-size: 92.742px;
-line-height: 87.5%;
-letter-spacing: -0.155em;
-color: #0a0e13;
-transform: rotate(90.13deg);
+.h1About {
+  position: relative;
+}
+
+.h1About h1 {
+  position: absolute;
+  width: 295px;
+  height: 81px;
+  left: 420px;
+  top: 120px;
+  font-family: "Pluto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 92.742px;
+  line-height: 87.5%;
+  letter-spacing: -0.155em;
+  color: #16213c;
+  transform: rotate(90.13deg);
 }
 
 .base {
-    width: 300px;
-    height: 600px;
-    background-color: #0a0e13;
-    padding: 40px;
-    padding-top: 120px;
-    margin-top: 5px;
-    margin-left: 150px;
-    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
-
+  width: 300px;
+  height: 600px;
+  background-color: #16213c;
+  padding: 40px;
+  padding-top: 80px;
+  margin-top: 15px;
+  margin-left: 150px;
+  clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
 }
 
+.base p {
+  transform: skewY(-15deg);
+  line-height: 22pt;
+  font-size: 15px;
+}
 
+.barraLateral {
+  position: relative;
+}
 
+.barraLateral img {
+  position: absolute;
+  width: 700px;
+  left: -590px;
+  top: 135px;
+}
 
 
 
@@ -130,7 +176,7 @@ transform: rotate(90.13deg);
 
 
 .slide {
-    background-color: #FFA200;
-    width: auto;
-    height: 600px;
-  }
+  background-color: #ffa200;
+  width: auto;
+  height: 600px;
+}
