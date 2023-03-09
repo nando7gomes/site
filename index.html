@@ -125,30 +125,44 @@
 
 <!-- CONTACT -->
 
-<section class="contact1" id="contatos">
+<section id="formulario">
   <div class="textcontac box type-1" >
- <h1>CONTACT</h1>
+    <h1>CONTACT</h1>
+   </div>
+    <!-- Make sure you don't change the form action-->
+    <form class="contatos box type-3"  action="https://api.staticforms.xyz/submit" method="post">
+
+      <!-- Replace with accesKey sent to your email -->
+      <aside >
+        <input type="hidden" name="accessKey" value="531e1770-46db-4dc2-b21a-82d8c433e079"> <!-- Required -->
+        <input class="espaconome" type="text" name="name" placeholder="Name"> <!-- Optional -->
+        <input type="text" name="email" placeholder="E-mail"> <!-- Optional -->
+        <input type="text" name="phone" placeholder="Whatsapp"> <!-- Optional -->
+        <textarea name="message" placeholder="Enter your message"></textarea> <!-- Optional -->
+        <div class="botaoenviar">
+          <input  type="submit" value="Submit" />
+        </div>
+    </aside>
+
+    <div class="barracontato"><div></div></div>
+
+    <article>
+        <h1>Follow me</h1>
+   <a href="https://www.behance.net/nando7gomes" target="_blank"><img class="icones box type-3" src="icon/icons8-behance-squared.svg" alt="Behance"></a> 
+    <a href="https://www.instagram.com/nando7gomes/" target="_blank"><img class="icones box type-1" src="icon/instagram.svg" alt="Instagram"></a>
+    <a href="#"><img class="icones box type-1" src="icon/tiktok.svg" alt="TikTok"></a>
+    </article>
+
+      <!-- Specify @ as reply to value if you want it to be customers email -->
+      <input type="hidden" name="replyTo" value="@"> <!-- Optional -->
+      <!-- If you want form to redirect to a specific url after submission -->
+      <input type="hidden" name="redirectTo" value="#"> <!-- Optional -->
+  </form>
+
+  <div class="barraContato">
+    <img src="IMG/linhas.svg" alt="">
+  </div>
 </div>
-  <div class="contatos box type-3">
-  <aside >
-      <input type="text" placeholder="Name"> 
-      <input type="text" placeholder="e-mail">
-      <input type="text" placeholder="Whatsapp">
-      <input class="iconesMSG" type="text" placeholder="Enter your message">
-      <button type="submit">OK</button>
-  </aside>
-
-  <div class="barracontato"><div></div></div>
-
-  <article>
-      <h1>Follow me</h1>
-      <img class="icones box type-3" src="icon/icons8-behance-squared.svg" alt="Behance">
-      <img class="icones box type-1" src="icon/instagram.svg" alt="Instagram">
-      <img class="icones box type-3" src="icon/github.svg" alt="Github">
-      <img class="icones box type-1" src="icon/tiktok.svg" alt="TikTok">
-  </article>
-</div>
-
 </section>
 
 
@@ -160,19 +174,7 @@
 </footer>
 
 
-<section id="formulario">
-<form action="https://api.staticforms.xyz/submit" method="post">
-  <input type="text" name="name" placeholder="Name">
-  <input type="text" name="email" placeholder="E-mail" />
-  <textarea name="message"></textarea>
-  <input type="text" name="honeypot" style="display:none">
-  <input type="hidden" name="accessKey" value="aaaaaaaa-bbbb-cccc-dddd-eeee6666kkkk">
-  <input type="hidden" name="subject" value="Contact us from - example.com" />
-  <input type="hidden" name="replyTo" value="@">
-  <input type="hidden" name="redirectTo" value="#home">
-  <input type="submit" value="Submit" />
-</form>
-</section>
+
 
 
 
