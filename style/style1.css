@@ -57,6 +57,10 @@ header a:hover {
 
 }
 
+.box.type-3 {
+
+}
+
 .box.type-1 {
   opacity: 0;
   transform: translateY(50px);
@@ -74,16 +78,29 @@ header a:hover {
   transition: opacity 1s ease, transform 1s ease;
 }
 
-.box.type-3 {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: opacity 2s ease, transform 1s ease;
-}
 
 .box.type-2-show {
   opacity: 1;
   transform: translateY(0);
 }
+
+
+.box.type-3 {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.box.type-3-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+
+
 
 
 

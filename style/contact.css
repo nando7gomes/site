@@ -22,10 +22,10 @@
 
 .barracontato {
   height: 400px;
-  width: 3px;
+  width: 10px;
   background-color: #ffa200;
-  border-radius: 5px;
   margin-top: -20px;
+  clip-path: polygon(100% 0.2%, 0 0, 0 99.8%, 100% 100%);
 }
 
 .contatos {
@@ -41,10 +41,7 @@
   gap: 100px;
 }
 
-aside {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .social {
   display: block;
@@ -68,6 +65,13 @@ article h1 {
 
 
   /* INPUTS */
+  aside {
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    margin-left: 50px;
+  }
+
 aside input {
     background-color: #ffa200;
     width: 300px;
@@ -76,6 +80,18 @@ aside input {
     margin-top: 10px;
     border: none;
     padding-left: 10px;
+
+  }
+
+  aside button {
+    background-color: #ffffff;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+
   }
 
   aside .iconesMSG {
@@ -94,7 +110,7 @@ aside input {
 
   .iconesMSG::placeholder {
     color: #0f151d;
-    text-align::justify;
+    text-align:justify;
     line-height: 40px;
   }
   

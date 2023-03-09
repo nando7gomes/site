@@ -129,22 +129,23 @@
   <div class="textcontac box type-1" >
  <h1>CONTACT</h1>
 </div>
-  <div class="contatos ">
+  <div class="contatos box type-3">
   <aside >
       <input type="text" placeholder="Name"> 
       <input type="text" placeholder="e-mail">
       <input type="text" placeholder="Whatsapp">
       <input class="iconesMSG" type="text" placeholder="Enter your message">
+      <button type="submit">OK</button>
   </aside>
 
   <div class="barracontato"><div></div></div>
 
   <article>
       <h1>Follow me</h1>
-      <img class="icones box type-1" src="icon/icons8-behance-squared.svg" alt="Behance">
-      <img class="icones box type-2" src="icon/instagram.svg" alt="Instagram">
-      <img class="icones box type-1" src="icon/github.svg" alt="Github">
-      <img class="icones box type-2" src="icon/tiktok.svg" alt="TikTok">
+      <img class="icones box type-3" src="icon/icons8-behance-squared.svg" alt="Behance">
+      <img class="icones box type-1" src="icon/instagram.svg" alt="Instagram">
+      <img class="icones box type-3" src="icon/github.svg" alt="Github">
+      <img class="icones box type-1" src="icon/tiktok.svg" alt="TikTok">
   </article>
 </div>
 
@@ -159,8 +160,19 @@
 </footer>
 
 
-
-
+<section id="formulario">
+<form action="https://api.staticforms.xyz/submit" method="post">
+  <input type="text" name="name" placeholder="Name">
+  <input type="text" name="email" placeholder="E-mail" />
+  <textarea name="message"></textarea>
+  <input type="text" name="honeypot" style="display:none">
+  <input type="hidden" name="accessKey" value="aaaaaaaa-bbbb-cccc-dddd-eeee6666kkkk">
+  <input type="hidden" name="subject" value="Contact us from - example.com" />
+  <input type="hidden" name="replyTo" value="@">
+  <input type="hidden" name="redirectTo" value="#home">
+  <input type="submit" value="Submit" />
+</form>
+</section>
 
 
 

@@ -18,6 +18,8 @@ window.addEventListener('scroll', () => {
         box.classList.add('type-1-show');
       } else if (box.classList.contains('type-2')) {
         box.classList.add('type-2-show');
+      }else if (box.classList.contains('type-3')) {
+        box.classList.add('type-3-show');
       }
     } else {
       // se não estiver na área visível, remove a classe "show"
@@ -28,7 +30,10 @@ window.addEventListener('scroll', () => {
         box.classList.remove('type-1-show');
       } else if (box.classList.contains('type-2')) {
         box.classList.remove('type-2-show');
+      }else if (box.classList.contains('type-3')) {
+        box.classList.remove('type-3-show');
       }
+      
     }
   });
 });
