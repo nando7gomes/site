@@ -71,11 +71,9 @@
 .baixar img {
   position: absolute;
  left: -310px;
- top: 270px;
+ top: 370px;
  width: 300px;
 }
-
-
 
 .baixar {
   position: relative;
@@ -89,7 +87,7 @@
     opacity: 1;
   }
   100% {
-    top: 200px;
+    top: 100px;
     opacity: 0;
   }
 }

@@ -9,21 +9,22 @@
   <link rel="stylesheet" href="style/style1.css" />
   <link rel="stylesheet" href="style/sobre.css">
   <link rel="stylesheet" href="style/slide.css">
+  <link rel="stylesheet" href="style/contact.css">
   <title>F7G</title>
 </head>
 
 <body>
-
+<!-- HOME -->
   <section id="home">
 
     <header>
       <img class="logo" src="IMG/Logo.svg" alt="Logo" />
         <ul>
-          <a href="#sobreMim">About</a>
+          <a href="#sobreMenu">About</a>
           <a class="barraSeparadora" href="#">|</a>
           <a href="#slide">Portfolio</a>
           <a class="barraSeparadora" href="#">|</a>
-          <a href="#">Contact</a>
+          <a href="#contatos">Contact</a>
         </ul>
     </header>
 
@@ -54,9 +55,8 @@
 
   </section>
 
-
-
-  <section class="sobre">
+<!-- SOBRE -->
+  <section id="sobreMenu" class="sobre">
 
     <div class="box type-2">
       <img src="IMG/linhas.svg" alt="">
@@ -86,7 +86,6 @@
   </section>
 
 
-
 <!-- CÓDIGO ANIMAÇAO
   <div class="box type-1">
     <h2>Div 1</h2>
@@ -102,9 +101,13 @@
   </div>
 -->
 
-
+<!-- PORTOFOLIO -->
 <section class="slide" id="slide">
 <div class="container">
+  <div class="portfolio box type-2">
+    <h1>PORTFOLIO</h1>
+  </div>
+
   <div class="box type-2 gallery-wrap">
     <div class="item item-1"></div>
     <div class="item item-2"></div>
@@ -120,8 +123,40 @@
 </div>
 </section>
 
+<!-- CONTACT -->
+
+<section class="contact1" id="contatos">
+  <div class="textcontac box type-1" >
+ <h1>CONTACT</h1>
+</div>
+  <div class="contatos ">
+  <aside >
+      <input type="text" placeholder="Name"> 
+      <input type="text" placeholder="e-mail">
+      <input type="text" placeholder="Whatsapp">
+      <input class="iconesMSG" type="text" placeholder="Enter your message">
+  </aside>
+
+  <div class="barracontato"><div></div></div>
+
+  <article>
+      <h1>Follow me</h1>
+      <img class="icones box type-1" src="icon/icons8-behance-squared.svg" alt="Behance">
+      <img class="icones box type-2" src="icon/instagram.svg" alt="Instagram">
+      <img class="icones box type-1" src="icon/github.svg" alt="Github">
+      <img class="icones box type-2" src="icon/tiktok.svg" alt="TikTok">
+  </article>
+</div>
+
+</section>
 
 
+
+<!-- RODAPÉ -->
+<footer>
+  <h1>Todos os direitos reservados</h1>
+  <p> &copy; 2023 F7G </p>
+</footer>
 
 
 
@@ -131,10 +166,5 @@
 
 </body>
 
-<!-- #include file="galeria.html" -->
 <script src="efeito.js"></script>
-
-
-
-
 </html>
