@@ -63,6 +63,39 @@
 
 }
 
+
+.baixar {
+  position: relative;
+}
+
+.baixar img {
+  position: absolute;
+ left: -310px;
+ top: 270px;
+ width: 300px;
+}
+
+
+
+.baixar {
+  position: relative;
+  height: 310px;
+  animation: deslizar 3s ease-out infinite;
+}
+
+@keyframes deslizar {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 200px;
+    opacity: 0;
+  }
+}
+
+
+
 /* TAMANHO MOBILE */
 @media (max-width: 1256px) {
   .barraTop img {
