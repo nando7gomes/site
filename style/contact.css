@@ -4,7 +4,7 @@
 }
 
 .textcontac h1 {
-  color: chocolate;
+  color: #a65817;
   position: absolute;
   transform: rotate(90deg);
   top: 200px;
@@ -13,6 +13,9 @@
   letter-spacing: -0.155em;
   font-weight: 900;
 }
+
+
+
 
 .barracontato {
   height: 400px;
@@ -52,6 +55,13 @@ article h1 {
   margin-bottom: 20px;
 }
 
+
+article p {
+    color: #ffa200;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
 .icones {
   width: 60px;
   margin-right: 30px;
@@ -71,7 +81,7 @@ article h1 {
 
 aside input {
     background-color: #ffa200;
-    width: 300px;
+    width: 400px;
     height: 50px;
     border-radius: 10px;
     margin-top: 10px;
@@ -91,14 +101,7 @@ aside input {
 
   }
 
-.iconesMSG {
-    background-color: #ffa200;
-    width: 300px;
-    height: 150px;
-    border-radius: 10px;
-    border: none;
-    padding-left: 10px;
-  }
+
 
   aside input::placeholder {
     color: #0f151d;
@@ -120,7 +123,7 @@ aside input {
 
    textarea {
     background-color: #ffa200;
-    width: 300px;
+    width: 400px;
     height: 150px;
     border-radius: 10px;
     margin-top: 10px;
@@ -139,12 +142,12 @@ aside input {
 
   .botaoenviar input {
     background-color: #ffffff;
-    width: 100px;
+    width: 200px;
     height: 40px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-
+    text-align: center;
   }
 
   .barraContato {
