@@ -2,19 +2,16 @@
   #home {
     /* Parte SUPERIOR */
     display: flex;
+    position: relative;
     background-size: 700px;
     background-color: #09830f;
     height: 700px;
-    width: auto;
-    position: relative;
+    width: 100%;
   }
 
 
 .hyIam {
 display: none;
-}
-.hyIam {
-  display: none;
 }
 
 #texto {
@@ -33,17 +30,17 @@ display: none;
 .fotoebarra .foto img {
   /* FOTO */
   z-index: 0;
-  width: 150px;
+  width: 350vh;
   display: flex;
-  left: 270px;
-  top: -130px;
+  left: 41vh;
+  top: -20vh;
   position: relative;
 }
 
 .barraTop img{
- height: 300px;
- margin-top: 100px;
- margin-left: -45px;
+ height: 45vh;
+ margin-top: 17vh;
+ margin-left: -6.4vh;
   }
 
 }

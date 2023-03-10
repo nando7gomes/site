@@ -1,3 +1,14 @@
+@media screen and (max-width: 768px) {
+  .h1About h1 {
+display: none;
+  }
+
+  .base {
+    display: none;
+  }
+}
+
+
 .sobre {
     background-color: #0f151d;
     height: 900px;
@@ -11,7 +22,7 @@
   .h1About {
     position: relative;
   }
-  
+
   .h1About h1 {
     position: absolute;
     width: 295px;
