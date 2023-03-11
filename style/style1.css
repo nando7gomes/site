@@ -1,4 +1,9 @@
 @media screen and (max-width: 1256px) {
+
+  .box.type-2 {
+    display: none !important;
+  }
+
   #home header {
     display: none;
   }
@@ -6,9 +11,8 @@
   #home {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    height: 460px;
+    background-color: #1a73e8;
   }
 
   .hyIam {
