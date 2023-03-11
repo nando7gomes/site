@@ -1,56 +1,5 @@
-@media screen and (max-width: 768px) {
-  #home {
-    /* Parte SUPERIOR */
-    display: flex;
-    position: relative;
-    background-size: 700px;
-    background-color: #09830f;
-    height: 700px;
-    width: 100%;
-  }
-
-
-.hyIam {
-display: none;
-}
-
-#texto {
-  display: none;
-}
-
-.hyIam h2 {
-  display: none;
-}
-
-.hyIam h1 {
-  display: none;
-}
-
-
-.fotoebarra .foto img {
-  /* FOTO */
-  z-index: 0;
-  width: 350vh;
-  display: flex;
-  left: 41vh;
-  top: -20vh;
-  position: relative;
-}
-
-.barraTop img{
- height: 45vh;
- margin-top: 17vh;
- margin-left: -6.4vh;
-  }
-
-}
-
-
-
 #home {
   /* Parte SUPERIOR */
-  background-size: 700px;
-  background-position: 80% 1%;
   background-color: #0f151d;
   height: 700px;
   width: auto;
