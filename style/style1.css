@@ -5,7 +5,10 @@
 
   #home {
     display: flex;
-    height: 420px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
 
   .hyIam {
