@@ -54,7 +54,9 @@
   }
 
   .FotoFernando img {
-    width: 50vw;
+      padding-top: 11vw;
+      width: 50vw;
+      z-index: 2;
   }
 
   .barraHOME{
