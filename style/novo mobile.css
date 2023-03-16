@@ -41,6 +41,10 @@
   .textoHomePC {
     display: none;
   }
+
+  .textoHomeMOBILE {
+    padding-top: 5vw;
+  }
   .conteudoHOME {
     font-size: 5vw;
     display: flex;
@@ -50,12 +54,7 @@
   }
 
   .FotoFernando img {
-    position: absolute;
     width: 50vw;
-    position: absolute;
-    top: 40vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 
   .barraHOME{
@@ -64,10 +63,9 @@
   }
   .barraHOME img {
     position: absolute;
-    width: 70vw;
-    position: absolute;
-    top: 70vw;
+    top: -10vw;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 60vw;
   }
 }
