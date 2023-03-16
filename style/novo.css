@@ -48,7 +48,7 @@ section {
 header {
   display: flex;
   align-items: center;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   margin-left: 20vw;
   padding-top: 2%;
   gap: 2%;
@@ -60,7 +60,6 @@ header a {
   margin-left: 15px;
 }
 header a:hover {
-    font-weight: 400;
     color: var(--cor-3);
 }
 
@@ -91,13 +90,11 @@ header a:hover {
 
 /* BARRA HOME */
 .barraHOME{
-    position: relative;
-    z-index: 1;
+ display: flex;
 }
-.barraHOME > img {
-    position: absolute;
+.barraHOME  img {
     width: 40vw;
-    margin-top: -31.8%;
+    margin-top: -31.8vw;
     left: 50%;
 }
 
@@ -105,24 +102,19 @@ header a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 6vw;
 
 }
 .SetaMovendoParaBaixo img {
     width: 20%;
-    animation: deslizar 3s ease-out infinite;
+    animation: deslizar 2s ease-out infinite;
 }
 @keyframes deslizar {
     0% {
       transform: translateY(0);
     }
-    50% {
-      transform: translateY(10px);
-    }
-    80% {
-      transform: translateY(10px);
-    }
     100% {
-      transform: translateY(0);
+      transform: translateY(50px);
       opacity: 0;
     }
   }
@@ -133,9 +125,14 @@ header a:hover {
 .conteudoHOME h1 {
   color: var(--cor-3);
   font-size: 1em;
+  font-weight: 300;
+  margin-bottom: 0.4vw;
+  margin-right: 10vw;
 }
 
 .conteudoHOME h2 {
-    font-size: 1em;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: .7;
 }
 

@@ -6,9 +6,16 @@
   .barraHOME img {
     position: absolute;
     width: 40%;
-    margin-top: -33%;
+    margin-top: -32vw;
     left: 50%;
   }
+
+  .FotoFernando img {
+    margin-top: 7vw;
+    width: 20vw;
+    z-index: 3;
+    margin-right: 20vw;
+}
 
   .textoHomePC {
     font-size: 2vw;
@@ -19,7 +26,13 @@
 }
 
 /* TABLET E HORIZONTAL MOBILE */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 801px) {
+
+
+  .textoHomePC {
+    display: none;
+  }
+
   header {
     display: none;
   }
@@ -36,10 +49,6 @@
   .SetaMovendoParaBaixo img {
     margin-top: 20px;
     width: 50%;
-  }
-
-  .textoHomePC {
-    display: none;
   }
 
   .textoHomeMOBILE {
@@ -61,6 +70,7 @@
 
   .barraHOME{
     display: flex;
+    position: relative;
 
   }
   .barraHOME img {
