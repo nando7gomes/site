@@ -54,7 +54,7 @@
     width: 50vw;
     position: absolute;
     top: 40vw;
-    left: 44%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
 
@@ -67,7 +67,7 @@
     width: 70vw;
     position: absolute;
     top: 70vw;
-    left: 44%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
 }
