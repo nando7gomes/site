@@ -1,0 +1,142 @@
+:root {
+  --cor-fundo: #101520;
+  --cor-2: #121e3b;
+  --cor-3: #ffa200;
+  --cor-4: #ab5a00;
+  --cor-5: #005b5a;
+  --cor-5: #343a40;
+  --cor-6: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Pluto";
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+}
+.section-1 {
+    height: 100vh;
+  background-color: var(--cor-fundo);
+}
+.section-2 {
+  background-color: var(--cor-2);
+  display: flex;
+  justify-content: center;
+}
+.section-3 {
+  background-color: #00f;
+}
+.section-4 {
+  background-color: #ff0;
+}
+.section-5 {
+  background-color: #0ff;
+}
+
+/* CÓDIGO ANTIGO *//* CÓDIGO ANTIGO *//* CÓDIGO ANTIGO *//* CÓDIGO ANTIGO */
+
+/* ................CABEÇALHO............... */
+header {
+  display: flex;
+  align-items: center;
+  font-size: 1.5vw;
+  margin-left: 20vw;
+  padding-top: 2%;
+  gap: 2%;
+}
+
+header a {
+  color: var(--cor-6);
+  font-weight: 200;
+  margin-left: 15px;
+}
+header a:hover {
+    font-weight: 400;
+    color: var(--cor-3);
+}
+
+.barraSeparadora {
+    color: var(--cor-3);
+}
+
+
+
+/* ................HOME............... */
+.conteudoHOME {
+/* MOVE TODO O CONTEÚDO */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+/* FOTO */
+
+.FotoFernando{
+    display: flex;
+    justify-content: center;
+}
+.FotoFernando img {
+    padding-top: 5%;
+    width: 17vw;
+    z-index: 2;
+}
+
+/* BARRA HOME */
+.barraHOME{
+    position: relative;
+    z-index: 1;
+}
+.barraHOME img {
+    position: absolute;
+    width: 40%;
+    margin-top: -31.8%;
+    left: 50%;
+}
+
+.SetaMovendoParaBaixo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.SetaMovendoParaBaixo img {
+    width: 20%;
+    animation: deslizar 3s ease-out infinite;
+}
+@keyframes deslizar {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    80% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+  }
+
+  
+
+/* TEXTO HOME */
+.conteudoHOME h1 {
+  color: var(--cor-3);
+  font-size: 1em;
+}
+
+.conteudoHOME h2 {
+    font-size: 1em;
+}
+

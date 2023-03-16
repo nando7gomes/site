@@ -5,16 +5,20 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style/home.css">
+  <link rel="stylesheet" href="style/novo.css">
+  <link rel="stylesheet" href="style/novo mobile.css">
+  <link rel="stylesheet" href="style/hamburger.css">
+  <!-- <link rel="stylesheet" href="style/home.css">
   <link rel="stylesheet" href="style/style1.css" />
   <link rel="stylesheet" href="style/sobre.css">
   <link rel="stylesheet" href="style/slide.css">
   <link rel="stylesheet" href="style/contact.css">
-  <title>F7G</title>
+  <title>F7G</title> HOME -->
 </head>
 
-<body>
-  <!-- HOME -->
+
+<!--<body>
+  HOME 
   <section id="home">
 
     <div class="hamburguer">
@@ -82,7 +86,7 @@
   </section>
 
 
-  <!-- SOBRE -->
+   SOBRE 
   <section id="sobreMenu" class="sobre">
 
     <div class="box type-2">
@@ -114,7 +118,7 @@
   </section>
 
 
-  <!-- CÓDIGO ANIMAÇAO
+   CÓDIGO ANIMAÇAO
   <div class="box type-1">
     <h2>Div 1</h2>
     <p>Conteúdo da Div 1</p>
@@ -127,9 +131,8 @@
     <h2>Div 3</h2>
     <p>Conteúdo da Div 3</p>
   </div>
--->
 
-  <!-- PORTOFOLIO -->
+ PORTOFOLIO
   <section class="slide" id="slide">
     <div class="container">
       <div class="portfolio box type-2">
@@ -151,22 +154,22 @@
     </div>
   </section>
 
-  <!-- CONTACT -->
+   CONTACT 
 
   <section id="formulario">
     <div class="textcontac box type-1">
       <h1>CONTACT</h1>
     </div>
-    <!-- Make sure you don't change the form action-->
+     Make sure you don't change the form action
     <form class="contatos box type-3" action="https://api.staticforms.xyz/submit" method="post">
 
-      <!-- Replace with accesKey sent to your email -->
+       Replace with accesKey sent to your email
       <aside>
-        <input type="hidden" name="accessKey" value="531e1770-46db-4dc2-b21a-82d8c433e079"> <!-- Required -->
-        <input class="espaconome" type="text" name="name" placeholder="Name"> <!-- Optional -->
-        <input type="text" name="email" placeholder="E-mail"> <!-- Optional -->
-        <input type="text" name="phone" placeholder="Whatsapp"> <!-- Optional -->
-        <textarea name="message" placeholder="Enter your message"></textarea> <!-- Optional -->
+        <input type="hidden" name="accessKey" value="531e1770-46db-4dc2-b21a-82d8c433e079"> Required
+        <input class="espaconome" type="text" name="name" placeholder="Name">  Optional 
+        <input type="text" name="email" placeholder="E-mail">  Optional 
+        <input type="text" name="phone" placeholder="Whatsapp">  Optional 
+        <textarea name="message" placeholder="Enter your message"></textarea> <!- Optional ->
         <div class="botaoenviar">
           <input type="submit" value="SEND MESSAGE ➤" />
         </div>
@@ -186,10 +189,10 @@
         <p>Spain • Galicia</p>
       </article>
 
-      <!-- Specify @ as reply to value if you want it to be customers email -->
-      <input type="hidden" name="replyTo" value="@"> <!-- Optional -->
-      <!-- If you want form to redirect to a specific url after submission -->
-      <input type="hidden" name="redirectTo" value="#"> <!-- Optional -->
+      <!- Specify @ as reply to value if you want it to be customers email ->
+      <input type="hidden" name="replyTo" value="@"> <!- Optional ->
+      <!- If you want form to redirect to a specific url after submission -->
+<input type="hidden" name="redirectTo" value="#"> <!-- Optional ->
     </form>
 
     <div class="barraContato">
@@ -200,7 +203,7 @@
 
 
 
-  <!-- RODAPÉ -->
+  <!- RODAPÉ ->
   <footer>
     <h1>Todos os direitos reservados</h1>
     <p> &copy; 2023 F7G </p>
@@ -209,7 +212,7 @@
 
 
 
-  <!--
+  <!-
 <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1636192990/magicmouse/magic_mouse-1.2.1.cdn.min.js"></script>
 -->
 </body>
@@ -226,6 +229,91 @@
   magicMouse(options);
 </script>
 -->
+
+</head>
+
+<body>
+
+  <!-- SECTION 1 -->
+
+
+
+
+  <section class="section-1">
+
+    <div class="hamburguer">
+      <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"><span></span></label>
+      <label for="active" class="close"></label>
+      <div class="wrapper">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="title">
+          Fullscreen Overlay Navigation Bar</div>
+        <p>
+          (Hamburger Menu-2)</p>
+      </div>
+    </div>
+
+
+
+    <header>
+      <img class="logo" src="IMG/Logo.svg" alt="Logo" />
+      <ul>
+        <a href="#sobreMenu">About</a>
+        <a class="barraSeparadora" href="#">|</a>
+        <a href="#slide">Portfolio</a>
+        <a class="barraSeparadora" href="#">|</a>
+        <a href="#formulario">Contact</a>
+      </ul>
+    </header>
+
+
+    <div class="conteudoHOME">
+
+      <!-- TEXTO PC -->
+      <div class="textoHomePC">
+        <h1>Hy! I Am</h1>
+        <h2>Fernando<br>Gomes</h2>
+      </div>
+
+      <div class="FotoFernando">
+      <img src="IMG/foto.png" alt="Foto" />
+      </div>
+      <!-- TEXTO MOBILE -->
+      
+      <div class="textoHomeMOBILE">
+        <h1>Hy! I Am</h1>
+        <h2>Fernando</b></h2>
+      </div>
+
+    </div>
+
+
+    <div class="SetaMovendoParaBaixo">
+      <img src="IMG/BAIXAR.png" alt="">
+    </div>
+
+    <div class="barraHOME">
+      <img src="IMG/linhas.svg" alt="">
+    </div>
+
+  </section>
+
+
+</div>
+  <section class="section-2">Section 2</section>
+  <section class="section-3">Section 3</section>
+  <section class="section-4">Section 4</section>
+  <section class="section-5">Section 5</section>
+</body>
+
+</html>
 
 
 
