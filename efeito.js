@@ -44,3 +44,20 @@ window.onload = function() {
   }, 1000); // o tempo é definido em milissegundos, então 1000ms equivalem a 1 segundo
 }
 
+
+const grid = document.querySelector('.grid');
+const lightbox = document.querySelector('.lightbox');
+const lightboxImg = document.querySelector('.lightbox-img');
+const closeBtn = document.querySelector('.close-btn');
+
+grid.addEventListener('click', e => {
+  if (e.target.tagName === 'IMG') {
+    const imgSrc = e.target.getAttribute('src');
+    lightboxImg.setAttribute('src', imgSrc);
+    lightbox.classList.add('active');
+  }
+});
+
+closeBtn.addEventListener('click', () => {
+  lightbox.classList.remove('active');
+});
