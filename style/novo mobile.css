@@ -1,3 +1,17 @@
+
+:root {
+  --cor-1: #101520;
+  --cor-2: #121e3b;
+  --cor-3: #ffa200;
+  --cor-4: #ab5a00;
+  --cor-5: #005b5a;
+  --cor-6: #343a40;
+  --cor-7: white;
+}
+
+
+
+
 @media screen and (max-width: 1280px) {
 
 }
@@ -27,13 +41,24 @@
   }
 }
 
-/* TABLET E HORIZONTAL MOBILE */
+/* TABLET E HORIZONTAL MOBILE............................................................... */
 @media screen and (max-width: 801px) {
 
   body { overflow-x: hidden; }
   
   .section-1 {
-    max-height: 120vw;
+    height: 120vw;
+    background-color: var(--cor-1);
+  }
+
+  .section-2 {
+    height: 170vw;
+    background-color: var(--cor-1);
+  }
+
+  .section-4 {
+    height: 140vw;
+    background-color: var(--cor-1);
   }
 
   .textoHomePC {
@@ -128,7 +153,7 @@
     margin-right: 0.5vw;
   }
 
-  /* SOBRE MIM */
+  /* ...........................................................................SOBRE MIM */
   .nomeSOBRE {
     position: relative;
   }
@@ -161,7 +186,7 @@
   #basedoTextoSobre {
     width: 70vw;
     height: 140vw;
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-1);
     padding: 5vw;
     padding-top: 8vh;
     margin-top: 5vw;
@@ -178,7 +203,15 @@
     font-weight: 200;
   }
 
-  /* GALERIA */
+  /* .................................................................................GALERIA */
+
+  .section-4 h1 {
+
+    font-size: 10vw;
+    padding-bottom: 3vw;
+
+  }
+
   .grid {
     grid-template-columns: repeat(3, 1fr) !important;
     grid-gap: 2vw !important;

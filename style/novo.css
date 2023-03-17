@@ -1,5 +1,5 @@
 :root {
-  --cor-fundo: #101520;
+  --cor-1: #101520;
   --cor-2: #121e3b;
   --cor-3: #ffa200;
   --cor-4: #ab5a00;
@@ -24,11 +24,11 @@ section {
   font-weight: bold;
 }
 .section-1 {
-  height: 100vh;
-  background-color: var(--cor-fundo);
+  height: 50vw;
+  background-color: var(--cor-1);
 }
 .section-2 {
-  background-color: var(--cor-fundo);
+  background-color: var(--cor-1);
   display: flex;
   justify-content: center;
 }
@@ -36,16 +36,15 @@ section {
   background-color: #00f;
 }
 .section-4 {
-  background-color: var(--cor-fundo);
-  height: 90vw;
+  background-color: var(--cor-1);
+  height: 92vw;
 }
 .section-5 {
   background-color: #0ff;
 }
 
-/* CÓDIGO ANTIGO *//* CÓDIGO ANTIGO *//* CÓDIGO ANTIGO *//* CÓDIGO ANTIGO */
 
-/* ................CABEÇALHO............... */
+/* .................................................................................CABEÇALHO */
 header {
   display: flex;
   align-items: center;
@@ -56,7 +55,7 @@ header {
 }
 
 header a {
-  color: var(--cor-6);
+  color: var(--cor-7);
   font-weight: 200;
   margin-left: 15px;
 }
@@ -122,7 +121,7 @@ header a:hover {
 
   
 
-/* TEXTO HOME............................................................ */
+/* TEXTO HOME................................ */
 .conteudoHOME h1 {
   color: var(--cor-3);
   font-size: 1em;
@@ -147,53 +146,37 @@ header a:hover {
 
 /* ..SOBRE MIM.......................................................................SOBRE MIM */
   
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-}
-
-.item-a {
-  order: 1;
-}
-
-.item-b {
-  order: -1;
-}
-
-
     .nomeSOBRE {
       position: relative;
-      display: flex;
-      flex-direction: row;
 
     }
   
     .nomeSOBRE h1 {
-      top: 12.3vw;
+      position: absolute;
+      left: 18vw;
+      top: 21.5vw;
       font-weight: 900;
       font-size: 6vw;
       letter-spacing: -0.155em;
       color: var(--cor-2);
       transform: rotate(90.13deg);
+      padding-right: 25vw;
     }
     
     #basedoTextoSobre {
-      width: 300px;
-      height: 600px;
-      background-color: var(--cor-fundo);
-      padding: 40px;
-      padding-top: 110px;
-      margin-top: 15px;
-      margin-left: 330px;
+      width: 15vw;
+      height: 40vw;
+      background-color: rgba(255, 68, 0, 0);
+      padding: 2vw 5vw;
+      margin-top: 1.3vw;
+      margin-left: 16vw;
     }
     
     #basedoTextoSobre p {
       text-align: right;
-      line-height: 22pt;
-      letter-spacing: 1px;
-      font-size: 15px;
-      font-weight: 200;
+      line-height: 1.5vw;
+      font-size: 1vw;
+      font-weight: 100;
     }
     
     .linhaSOBREMIM {
@@ -202,114 +185,12 @@ header a:hover {
     
     .linhaSOBREMIM img {
       position: absolute;
-      width: 700px;
-      right: -340px;
-      top: 135px;
+      width: 40vw;
+      right: -19vw;
+      top: 4vw;
     }
 
-    /* ................PORTFOLIO.............................................. */
-
     
-@media screen and (max-width: 768px) {
-    .slide {
-        background-color: #0f151d;
-        height: 90px;
-        width: 20px;
-      }
-  }
-  
-  
-  .slide {
-    background-color: #0f151d;
-    height: 1190px;
-  }
-  
-  .portfolio {
-    position: relative;
-  }
-  
-  
-  .container {
-    padding: 75px 0;
-    margin: 0 auto;
-    width: 1140px;
-  
-  }
-  
-  .gallery-wrap {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 85vh;
-  }
-  
-  .item {
-    flex: 1;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-    transition: flex 1.0s ease;
-    z-index: 2;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 30px 20px -20px, rgba(0, 0, 0, 0.45) 0px 30px 20px -20px;
-    filter: grayscale(4);
-  }
-  .item:hover {
-    flex: 7;
-    filter: grayscale(0);
-    height: 87vh;
-    transform: translateY(-1vh);
-    border-radius: 5px;
-  }
-  
-  .item-1 {
-    background-image: url("../IMG/ABRIL\ FINAL\ copy.jpg");
-  }
-  .item-1:hover {
-    flex: 6;
-    transition: flex 2.0s ease;
-  }
-  
-  .item-2 {
-    background-image: url("../IMG/ANTARTICA.jpg");
-  }
-  .item-2:hover {
-    flex: 17;
-    transition: flex 3.0s ease;
-  }
-  
-  .item-3 {
-    background-image: url("../IMG/FANTA.jpg");
-  }
-  .item-3:hover {
-    flex: 10;
-    transition: flex 3.0s ease;
-  }
-  
-  .item-4 {
-    background-image: url("../IMG/LAND2.jpg");
-  }
-  .item-4:hover {
-    flex: 25;
-    transition: flex 3.0s ease;
-  }
-  
-  .item-5 {
-    background-image: url("../IMG/PAGES\ copy.jpg");
-  }
-  .item-5:hover {
-    flex: 50;
-    transition: flex 3.0s ease;
-  }
-  .item-6 {
-    background-image: url("../IMG/Post001\ copy.jpeg");
-  }
-  .item-5:hover {
-    transition: flex 3.0s ease;
-  }
-  
-  
-  
     /* ................SCRIPT ANIMAÇãO.............................................. */
   .box.type-1{
   position: relative;
