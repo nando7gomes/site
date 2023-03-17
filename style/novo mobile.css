@@ -80,4 +80,18 @@
     transform: translate(-50%, -50%);
     width: 60vw;
   }
+
+  .conteudoHOME h1 {
+    color: var(--cor-3);
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 0.4vw;
+    margin-right: .5vw;
+  }
+
+  .section-1 {
+    height: 80vh;
+  background-color: var(--cor-fundo);
+}
+
 }
