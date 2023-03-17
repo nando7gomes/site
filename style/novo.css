@@ -417,6 +417,7 @@ header a:hover {
   object-fit: cover;
   border-radius: 1vw;
   filter: grayscale(100%);
+  transition-duration: 0.4s;
 }
 .grid-item img:hover {
   filter: none;
@@ -466,6 +467,50 @@ header a:hover {
 }
 .grid-item:nth-child(3) {
   grid-row: 3;
-} /* GALERIA */
+}
+
+
+
+.grid-item::after {
+  /* TITULO AO PASSAR O MOUSE EM CIMA DA FOTO */
+  content: attr(data-title);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 1;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.grid-item:hover::after {
+    /* TITULO AO PASSAR O MOUSE EM CIMA DA FOTO */
+  opacity: 1;
+}
+.grid-item span {
+    /* TITULO AO PASSAR O MOUSE EM CIMA DA FOTO */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 1;
+  font-size: .4em;
+  text-align: center;
+  font-weight: 400;
+  background-color: #000000b6;
+  border-radius: 0.3vw;
+  padding: 1vw 1.5vw 1vw 1.5vw;
+  color: #ffa200;
+}
+.grid-item:hover span {
+  opacity: 1;
+}
+/* GALERIA.................................................................................... */
 
   

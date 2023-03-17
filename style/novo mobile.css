@@ -192,6 +192,18 @@
     color: var(--cor-3);
     cursor: pointer;
   }
+  .grid-item:hover::after {
+    /* TITULO AO PASSAR O MOUSE EM CIMA DA FOTO */
+    display: none;
+}
+.grid-item span {
+    /* TITULO AO PASSAR O MOUSE EM CIMA DA FOTO */
+display: none;
+}
+
+.grid-item:hover span {
+  display: none;
+}
 }
 
 
