@@ -160,12 +160,12 @@ header a:hover {
     
     .nomeSOBRE {
       position: relative;
-      left: 30vw;
-      top: 12.3vw;
     }
   
     .nomeSOBRE h1 {
       position: absolute;
+      left: 30vw;
+      top: 12.3vw;
       font-weight: 900;
       font-size: 6vw;
       letter-spacing: -0.155em;
