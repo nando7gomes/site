@@ -1,3 +1,5 @@
+// EFEITOS DE ANIMACAO
+
 // seleciona todas as divs com a classe "box"
 const boxes = document.querySelectorAll('.box');
 
@@ -21,6 +23,12 @@ window.addEventListener('scroll', () => {
       }else if (box.classList.contains('type-3')) {
         box.classList.add('type-3-show');
       }
+      else if (box.classList.contains('type-4')) {
+        box.classList.add('type-4-show');
+      }
+      else if (box.classList.contains('type-5')) {
+        box.classList.add('type-5-show');
+      }
     } else {
       // se não estiver na área visível, remove a classe "show"
       box.classList.remove('show');
@@ -35,19 +43,23 @@ window.addEventListener('scroll', () => {
       }else if (box.classList.contains('type-4')) {
         box.classList.remove('type-4-show');
       }
+      else if (box.classList.contains('type-5')) {
+        box.classList.remove('type-5-show');
+      }
       
       
     }
   });
 });
 
+// Aparecer o fundo da foto superior
 window.onload = function() {
   setTimeout(function() {
     document.querySelector('.barraHOME img').style.opacity = "1";
   }, 1000); // o tempo é definido em milissegundos, então 1000ms equivalem a 1 segundo
 }
 
-
+// GALERIA
 const grid = document.querySelector('.grid');
 const lightbox = document.querySelector('.lightbox');
 const lightboxImg = document.querySelector('.lightbox-img');
@@ -63,4 +75,10 @@ grid.addEventListener('click', e => {
 
 closeBtn.addEventListener('click', () => {
   lightbox.classList.remove('active');
+
+  lightbox.addEventListener('click', e => {
+    if (e.target === lightbox) {
+      lightbox.classList.remove('active');
+    }
+  });
 });

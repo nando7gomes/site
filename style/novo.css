@@ -371,14 +371,26 @@ header a:hover {
 
   .box.type-4 {
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateY(-5vw);
     transition: opacity 1s ease, transform 1s ease;
   }
   
   .box.type-4-show {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0); 
   }
+
+  .box.type-5 {
+    opacity: 0;
+    transform: translateY(5vw);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .box.type-5-show {
+    opacity: 1;
+    transform: translateX(0); 
+  }
+  
 
 
   /* GALERIA.........................................................................GALERIA... */
@@ -404,6 +416,11 @@ header a:hover {
   height: 100%;
   object-fit: cover;
   border-radius: 1vw;
+  filter: grayscale(100%);
+}
+.grid-item img:hover {
+  filter: none;
+  cursor: zoom-in;
 }
 
 .lightbox {
@@ -420,11 +437,11 @@ header a:hover {
 
 .close-btn {
   position: absolute;
-  top: 50px;
-  right: 50px;
-  font-size: 70px;
+  top: 1vw;
+  right: 12vw;
+  font-size: 4vw;
   font-weight: bold;
-  color: #005b5a;
+  color: var(--cor-3);
   cursor: pointer;
 }
 

@@ -183,6 +183,15 @@
   .lightbox-img {
     border-radius: 2vw !important;
   }
+  .close-btn {
+    position: absolute;
+    top: 1vw;
+    right: 12vw;
+    font-size: 10vw;
+    font-weight: bold;
+    color: var(--cor-3);
+    cursor: pointer;
+  }
 }
 
 
