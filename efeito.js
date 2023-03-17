@@ -32,7 +32,10 @@ window.addEventListener('scroll', () => {
         box.classList.remove('type-2-show');
       }else if (box.classList.contains('type-3')) {
         box.classList.remove('type-3-show');
+      }else if (box.classList.contains('type-4')) {
+        box.classList.remove('type-4-show');
       }
+      
       
     }
   });
