@@ -1,8 +1,10 @@
 @media screen and (max-width: 1280px) {
+
 }
 
 /* NOTEBOOK */
 @media screen and (min-width: 801px) {
+
   .barraHOME img {
     position: absolute;
     width: 40%;
@@ -27,6 +29,9 @@
 
 /* TABLET E HORIZONTAL MOBILE */
 @media screen and (max-width: 801px) {
+
+  body { overflow-x: hidden; }
+  
   .section-1 {
     max-height: 120vw;
   }
@@ -165,6 +170,7 @@
   }
 
   #basedoTextoSobre p {
+    text-align: left;
     transform: none;
     line-height: 5vw;
     letter-spacing: 1px;

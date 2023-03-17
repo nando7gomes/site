@@ -57,7 +57,16 @@ window.onload = function() {
   setTimeout(function() {
     document.querySelector('.barraHOME img').style.opacity = "1";
   }, 1000); // o tempo é definido em milissegundos, então 1000ms equivalem a 1 segundo
+  
 }
+
+window.onload = function() {
+  setTimeout(function() {
+    document.querySelector('.fundoDoSlide img').style.opacity = "1";
+  }, 1000); // o tempo é definido em milissegundos, então 1000ms equivalem a 1 segundo
+  
+}
+
 
 // GALERIA
 const grid = document.querySelector('.grid');
