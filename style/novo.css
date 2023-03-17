@@ -70,7 +70,7 @@ header a:hover {
 
 
 
-/* ................HOME............... */
+/* HOME..................................................................................HOME */
 .conteudoHOME {
 /* MOVE TODO O CONTEÚDO */
     display: flex;
@@ -145,26 +145,31 @@ header a:hover {
 }
 
 
-/* ..SOBRE MIM..................................................................SOBRE MIM.... */
+/* ..SOBRE MIM.......................................................................SOBRE MIM */
   
-  
-  .sobre {
-      background-color: #0f151d;
-      height: 900px;
-      width: auto;
-      color: #ffffff;
-      display: flex;
-      justify-content: center;
-      font-weight: 200;
-    }
-    
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-a {
+  order: 1;
+}
+
+.item-b {
+  order: -1;
+}
+
+
     .nomeSOBRE {
       position: relative;
+      display: flex;
+      flex-direction: row;
+
     }
   
     .nomeSOBRE h1 {
-      position: absolute;
-      left: 30vw;
       top: 12.3vw;
       font-weight: 900;
       font-size: 6vw;
