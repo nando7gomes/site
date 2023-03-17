@@ -147,13 +147,20 @@
     transform: none;
   }
 
+  .linhaSOBREMIM {
+    position: relative;
+  }
+  
   .linhaSOBREMIM img {
-    display: none;
+    position: absolute;
+    width: 700px;
+    right: -370px;
+    top: 105px;
   }
 
   #basedoTextoSobre {
     width: 70vw;
-    height: 100vw;
+    height: 140vw;
     background-color: var(--cor-fundo);
     padding: 5vw;
     padding-top: 8vh;
