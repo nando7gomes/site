@@ -38,4 +38,9 @@ window.addEventListener('scroll', () => {
   });
 });
 
+window.onload = function() {
+  setTimeout(function() {
+    document.querySelector('.barraHOME img').style.opacity = "1";
+  }, 1000); // o tempo é definido em milissegundos, então 1000ms equivalem a 1 segundo
+}
 

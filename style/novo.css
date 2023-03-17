@@ -145,16 +145,6 @@ header a:hover {
 
 
 /* ................SOBRE MIM.............................................. */
-
-@media screen and (max-width: 801px) {
-    .h1About h1 {
-  display: none;
-    }
-  
-    .base {
-      display: none;
-    }
-  }
   
   
   .sobre {
@@ -167,11 +157,11 @@ header a:hover {
       font-weight: 200;
     }
     
-    .h1About {
+    .nomeSOBRE {
       position: relative;
     }
   
-    .h1About h1 {
+    .nomeSOBRE h1 {
       position: absolute;
       width: 295px;
       height: 81px;
@@ -185,7 +175,7 @@ header a:hover {
       transform: rotate(90.13deg);
     }
     
-    .base {
+    #basedoTextoSobre {
       width: 300px;
       height: 600px;
       background-color: #16213c;
@@ -196,17 +186,19 @@ header a:hover {
       clip-path: polygon(0 15%, 100% 0, 100% 85%, 0% 100%);
     }
     
-    .base p {
+    #basedoTextoSobre p {
       transform: skewY(-15deg);
       line-height: 22pt;
+      letter-spacing: 1px;
       font-size: 15px;
+      font-weight: 200;
     }
     
-    .box.type-2 {
+    .linhaSOBREMIM {
       position: relative;
     }
     
-    .box.type-2 img {
+    .linhaSOBREMIM img {
       position: absolute;
       width: 700px;
       right: -340px;
@@ -294,7 +286,7 @@ header a:hover {
   }
   .item-2:hover {
     flex: 17;
-    transition: flex 2.0s ease;
+    transition: flex 3.0s ease;
   }
   
   .item-3 {
@@ -302,7 +294,7 @@ header a:hover {
   }
   .item-3:hover {
     flex: 10;
-    transition: flex 2.0s ease;
+    transition: flex 3.0s ease;
   }
   
   .item-4 {
@@ -310,7 +302,7 @@ header a:hover {
   }
   .item-4:hover {
     flex: 25;
-    transition: flex 2.0s ease;
+    transition: flex 3.0s ease;
   }
   
   .item-5 {
@@ -322,6 +314,9 @@ header a:hover {
   }
   .item-6 {
     background-image: url("../IMG/Post001\ copy.jpeg");
+  }
+  .item-5:hover {
+    transition: flex 3.0s ease;
   }
   
   
