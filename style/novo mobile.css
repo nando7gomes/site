@@ -52,7 +52,7 @@
   }
 
   .section-2 {
-    height: 170vw;
+    height: 180vw;
     background-color: var(--cor-1);
   }
 
@@ -181,6 +181,7 @@
     width: 120vw;
     left: -14vw;
     top: 105px;
+    clip-path: polygon(0% 0%, 82% 0, 82% 100%, 0 100%);
   }
 
   #basedoTextoSobre {
@@ -204,6 +205,17 @@
   }
 
   /* .................................................................................GALERIA */
+
+  .fundoDoSlide img {
+    position: absolute;
+    width: 140vw;
+    top: -50vw;
+    animation: mover 1.5s forwards;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
 
   .section-4 h1 {
 

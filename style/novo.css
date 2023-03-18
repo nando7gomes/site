@@ -16,21 +16,28 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: var(--cor-1);
+}
+
 section {
   height: 100vh;
   width: 100%;
   color: #fff;
   font-size: 3em;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 .section-1 {
-  height: 50vw;
+  height: 45vw;
   background-color: var(--cor-1);
 }
 .section-2 {
   background-color: var(--cor-1);
   display: flex;
   justify-content: center;
+  height: 50vw;
 }
 .section-3 {
   background-color: #00f;
@@ -153,27 +160,27 @@ header a:hover {
   
     .nomeSOBRE h1 {
       position: absolute;
-      left: 18vw;
-      top: 21.5vw;
+      left: 32vw;
+      top: 26vw;
       font-weight: 900;
       font-size: 6vw;
       letter-spacing: -0.155em;
-      color: var(--cor-2);
+      color: var(--cor-3);
       transform: rotate(90.13deg);
       padding-right: 25vw;
     }
     
     #basedoTextoSobre {
-      width: 15vw;
+      width: 25vw;
       height: 40vw;
       background-color: rgba(255, 68, 0, 0);
       padding: 2vw 5vw;
-      margin-top: 1.3vw;
-      margin-left: 16vw;
+      margin-top: 5.5vw;
+      margin-left: 19vw;
     }
     
     #basedoTextoSobre p {
-      text-align: right;
+      text-align:justify;
       line-height: 1.5vw;
       font-size: 1vw;
       font-weight: 100;
@@ -186,8 +193,8 @@ header a:hover {
     .linhaSOBREMIM img {
       position: absolute;
       width: 40vw;
-      right: -19vw;
-      top: 4vw;
+      right: -21vw;
+      top: 8vw;
     }
 
     
@@ -289,6 +296,7 @@ header a:hover {
 
   .section-4 h1 {
     padding-top: 2vw;
+    padding-bottom: 2vw;
     margin-left: 14.5vw;
     font-weight: 900;
     font-size: 6vw;
