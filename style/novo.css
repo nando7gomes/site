@@ -8,6 +8,57 @@
   --cor-7: white;
 }
 
+@font-face {
+  font-family: Pluto;
+  src: url(../font/1.ttf);
+  font-weight: bold;
+  font-style: bold;
+}
+@font-face {
+  font-family: Pluto;
+  src: url(../font/2.ttf);
+  font-weight: bolder;
+  font-style: bolder;
+}
+@font-face {
+  font-family: Pluto;
+  src: url(../font/3.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Pluto;
+  src: url(../font/4.ttf);
+  font-weight: lighter;
+  font-style: lighter;
+}
+@font-face {
+  font-family: Pluto;
+  src: url(../font/5.ttf);
+  font-weight: 100;
+  font-style: 100;
+}
+@font-face {
+  font-family: Pluto;
+  src: url(../font/6.ttf);
+  font-weight: 200;
+  font-style: 200;
+}
+@font-face {
+  font-family: Pluto;
+  src: url(../font/7.ttf);
+  font-weight: 400;
+  font-style: 400;
+}
+@font-face {
+  font-family: Pluto;
+  src: url(../font/600.ttf);
+  font-weight: 600;
+  font-style: 600;
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -47,7 +98,8 @@ section {
   height: 92vw;
 }
 .section-5 {
-  background-color: #0ff;
+  height: 60vw;
+  background-color: var(--cor-3);
 }
 
 
@@ -132,20 +184,20 @@ header a:hover {
 .conteudoHOME h1 {
   color: var(--cor-3);
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 100;
   margin-bottom: 0.4vw;
   margin-right: 10.5vw;
   margin-top: 6vw;
 }
 
 .conteudoHOME h2 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.5em;
     line-height: .7;
 }
 
 .conteudoHOME b {
-    font-weight: 200;
+    font-weight: normal;
     font-size: 1em;
     line-height: .9;
 }
@@ -183,7 +235,7 @@ header a:hover {
       text-align:justify;
       line-height: 1.5vw;
       font-size: 1vw;
-      font-weight: 100;
+      font-weight: 200;
     }
     
     .linhaSOBREMIM {
@@ -373,7 +425,7 @@ header a:hover {
 }
 
 .grid-item:nth-child(2) {
-  grid-row: 1 / span 2;
+  grid-row: 2 / span 2;
 }
 
 .grid-item:nth-child(4) {
@@ -382,6 +434,9 @@ header a:hover {
 .grid-item:nth-child(3) {
   grid-row: 3;
 }
+
+
+
 
 
 
@@ -427,4 +482,6 @@ header a:hover {
 }
 /* GALERIA.................................................................................... */
 
-  
+footer{
+  height: 10vw;
+}

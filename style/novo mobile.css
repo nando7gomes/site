@@ -44,7 +44,7 @@
 /* TABLET E HORIZONTAL MOBILE............................................................... */
 @media screen and (max-width: 801px) {
 
-  body { overflow-x: hidden; }
+  html { overflow-x: hidden; }
   
   .section-1 {
     height: 120vw;

@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style/novo.css">
   <link rel="stylesheet" href="style/novo mobile.css">
   <link rel="stylesheet" href="style/hamburger.css">
+  <link rel="stylesheet" href="style/novoCONTATO.css">
   <!-- <link rel="stylesheet" href="style/home.css">
   <link rel="stylesheet" href="style/style1.css" />
   <link rel="stylesheet" href="style/sobre.css">
@@ -237,206 +238,236 @@
 
 
 
-  <!-- SECTION 1 -->
+<!--------------------------------------------------------------------------------------- HOME -->
+<section class="section-1">
 
-
-
-
-  <section class="section-1">
-
-    <div class="hamburguer">
-      <input type="checkbox" id="active">
-      <label for="active" class="menu-btn"><span></span></label>
-      <label for="active" class="close"></label>
-      <div class="wrapper">
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-      <div class="content">
-        <div class="title">
-          Fullscreen Overlay Navigation Bar</div>
-        <p>
-          (Hamburger Menu-2)</p>
-      </div>
-    </div>
-
-
-
-    <header>
-      <img class="logo" src="IMG/Logo.svg" alt="Logo" />
+  <!-- MENU HAMBURGUER :::::::::::::::::::::::::::::::::::::::::::::-->
+  <div class="hamburguer">
+    <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
       <ul>
-        <a href="#sobreMenu">About</a>
-        <a class="barraSeparadora" href="#">|</a>
-        <a href="#slide">Portfolio</a>
-        <a class="barraSeparadora" href="#">|</a>
-        <a href="#formulario">Contact</a>
+        <li><a href="#SOBREMIM">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
-    </header>
+    </div>
+    <div class="content">
+      <div class="title">
+        Fullscreen Overlay Navigation Bar</div>
+      <p>
+        (Hamburger Menu-2)</p>
+    </div>
+  </div>
 
 
-    <div class="conteudoHOME">
+  <!-- MENU DO SITE :::::::::::::::::::::::::::::::::::::::::::::-->
+  <header>
+    <img class="logo" src="IMG/Logo.svg" alt="Logo" />
+    <ul>
+      <a href="#SOBREMIM">About</a>
+      <a class="barraSeparadora" href="#">|</a>
+      <a href="#GALERIA">Portfolio</a>
+      <a class="barraSeparadora" href="#">|</a>
+      <a href="#CONTATOS">Contact</a>
+    </ul>
+  </header>
 
-      <!-- TEXTO PC -->
-      <div class="textoHomePC">
-        <h1>Hy! I Am</h1>
-        <h2>Fernando<br><b>Gomes</b></h2>
-      </div>
-
-      <div class="FotoFernando">
+  <!-- CONTEÚDO HOME :::::::::::::::::::::::::::::::::::::::::::::-->
+  <div class="conteudoHOME">
+    <!-- TEXTO PC -->
+    <div class="textoHomePC">
+      <h1>Hy! I Am</h1>
+      <h2>Fernando<br><b>Gomes</b></h2>
+    </div>
+    <!-- FOTO -->
+    <div class="FotoFernando">
       <img src="IMG/foto.png" alt="Foto" />
+    </div>
+    <!-- TEXTO MOBILE -->
+    <div class="textoHomeMOBILE">
+      <h1>Hy! I Am</h1>
+      <h2>Fernando</b></h2>
+    </div>
+  </div>
+  <!-- LINHA DO FUNDO AMARELA -->
+  <div class="barraHOME">
+    <img src="IMG/linhas.svg" alt="">
+  </div>
+  <!-- FLECHA PARA BAIXO MOVENDO -->
+  <div class="SetaMovendoParaBaixo">
+    <img src="IMG/BAIXAR.png" alt="">
+  </div>
+</section>
+
+<!-------------------------------------------------------------------------------- SOBRE MIM -->
+<section class="section-2">
+  <!-- LINHA DO FUNDO AMARELA -->
+  <div id="SOBREMIM" class="linhaSOBREMIM box type-3">
+    <img src="IMG/linhas.svg" alt="">
+  </div>
+
+  <div class="box type-1">
+    <!-- TEXTO SOBRE -->
+    <div class="box type-2 nomeSOBRE">
+      <h1>ABOUT</h1>
+    </div>
+    <!-- BASE QUE AJUSTA O TAMANHO DO TEXTO -->
+    <div id="basedoTextoSobre">
+      <!-- TEXTO -->
+      <p class="box type-5">
+        &nbsp &nbsp &nbsp My name is Fernando Gomes and I've been working as a designer for the past 15 years. <br>
+        &nbsp &nbsp I have a passion for
+        technology and I'm constantly striving to keep myself up to date with the latest advancements in the field. <br>
+        &nbsp &nbsp
+
+        Over the years, I've gained extensive experience in various aspects of design, from graphic design to user
+        interface design. I enjoy the challenge of taking complex information and presenting it in a visually
+        appealing
+        and user-friendly way.
+
+        <br> &nbsp &nbsp &nbsp My love for technology extends beyond my professional life.<br> &nbsp &nbsp &nbsp I enjoy
+        tinkering with gadgets and exploring new
+        software and apps. I believe that technology has the power to transform the way we live and work.
+
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!----------------------------------------------------------------------------------- GALERIA -->
+<section id="GALERIA" class="section-4">
+
+  <h1 class="box type-4">PORTFOLIO</h1>
+
+  <div class="gallery">
+    <div class="grid">
+      <div class="grid-item box type-5">
+        <span>LAYOUT</span>
+        <img src="IMG/ABRIL FINAL copy.jpg" alt="Imagem 1">
       </div>
-      <!-- TEXTO MOBILE -->
-      
-      <div class="textoHomeMOBILE">
-        <h1>Hy! I Am</h1>
-        <h2>Fernando</b></h2>
+      <div class="grid-item box type-2">
+        <span>MANIPULATION</span>
+        <img src="IMG/ANTARTICA.jpg" alt="Imagem 2">
       </div>
-
+      <div class="grid-item box type-3">
+        <span>MANIPULATION</span>
+        <img src="IMG/FANTA.jpg" alt="Imagem 3">
+      </div>
+      <div class="grid-item box type-4">
+        <span>LOGO</span>
+        <img src="IMG/Post001 copy.jpeg" alt="Imagem 4">
+      </div>
+      <div class="grid-item box type-5">
+        <span>INTERFACE UI</span>
+        <img src="IMG/PAGES copy.jpg" alt="Imagem 5">
+      </div>
+      <div class="grid-item box type-3">
+        <span>MANIPULATION</span>
+        <img src="IMG/LAND2.jpg" alt="Imagem 6">
+      </div>
+      <div class="grid-item box type-2">
+        <span>LOGO</span>
+        <img src="IMG/PIU BELLA copy.jpg" alt="Imagem 7">
+      </div>
+      <div class="grid-item box type-3">
+        <span>LOGO</span>
+        <img src="IMG/CARROSSEL-INSTAGRAM_01.png" alt="Imagem 8">
+      </div>
+      <div class="grid-item box type-4">
+        <span>LAYOUT</span>
+        <img src="IMG/S copy.jpg" alt="Imagem 9">
+      </div>
+      <div class="grid-item box type-5">
+        <span>PHOTOGRAPHY AND MANIPULATION</span>
+        <img src="IMG/Burger.jpg" alt="Imagem 10">
+      </div>
     </div>
-
-    <div class="barraHOME">
-      <img src="IMG/linhas.svg" alt="">
+    <div class="lightbox">
+      <span class="close-btn">&times;</span>
+      <img class="lightbox-img" src="" alt="">
     </div>
+  </div>
 
+  <div class="fundoDoSlide">
+    <img src="IMG/linhas.svg" alt="">
+  </div>
 
-    <div class="SetaMovendoParaBaixo">
-      <img src="IMG/BAIXAR.png" alt="">
+</section>
+
+<!---------------------------------------------------------------------------------- CONTATO -->
+<section id="CONTATOS" class="section-5">
+
+  <!--<section id="formulario">-->
+  <div class="textcontac box type-3">
+    <h1>CONTACT</h1>
+  </div>
+  <!--Make sure you don't change the form action -->
+  <form class="contatos" action="https://api.staticforms.xyz/submit" method="post">
+
+    <!-- Replace with accesKey sent to your email -->
+    <aside>
+      <h1>Mail</h1>
+      <input type="hidden" name="accessKey" value="531e1770-46db-4dc2-b21a-82d8c433e079"> <!-- Required -->
+      <input class="espaconome" type="text" name="name" placeholder="Name"> <!-- Optional -->
+      <input type="text" name="email" placeholder="E-mail"> <!-- Optional -->
+      <input type="text" name="phone" placeholder="Whatsapp"> <!-- Optional -->
+      <textarea name="message" placeholder="Your message"></textarea> <!-- Optional -->
+      <div class="botaoenviar">
+        <input type="submit" value="SEND MESSAGE ➤" />
+      </div>
+    </aside>
+
+    <div class="barracontato">
+      <div></div>
     </div>
+    <!-- Specify @ as reply to value if you want it to be customers email -->
+    <input type="hidden" name="replyTo" value="@"> <!-- Optional-->
+    <!-- If you want form to redirect to a specific url after submission -->
+    <input type="hidden" name="redirectTo" value="#"> <!-- Optional-->
 
-
-<!-- SOBRE MIM -->
-  </section>
-
-
-</div>
-  <section class="section-2">
-  
-    <div class="linhaSOBREMIM box type-3">
-      <img src="IMG/linhas.svg" alt="">
+    
+    <div class="incrivel">
+      <h1>We will do <br> <b>amazing</b>  <br> work together!</h1>
     </div>
     
-    <div class="box type-1">
-      
-      <div class="box type-2 nomeSOBRE">
-        <h1>ABOUT</h1>
-      </div>
+  </form>
 
-      <div id="basedoTextoSobre">
+  <div class="barraContato box type-5">
+    <img src="IMG/linhas.svg" alt="">
+  </div>
+  </div>
 
-        <p class="box type-5">
-          &nbsp &nbsp &nbsp My name is Fernando Gomes and I've been working as a designer for the past 15 years. <br> &nbsp &nbsp I have a passion for
-          technology and I'm constantly striving to keep myself up to date with the latest advancements in the field. <br> &nbsp &nbsp 
 
-          Over the years, I've gained extensive experience in various aspects of design, from graphic design to user
-          interface design. I enjoy the challenge of taking complex information and presenting it in a visually
-          appealing
-          and user-friendly way.
-
-          <br> &nbsp &nbsp &nbsp My love for technology extends beyond my professional life.<br> &nbsp &nbsp &nbsp  I enjoy tinkering with gadgets and exploring new
-          software and apps. I believe that technology has the power to transform the way we live and work.
-
-        </p>
-
-      </div>
+  <div class="redes">
+    <div class="contRedes">
+      <h1>Follow me</h1>
+      <ul>
+        <a href="https://www.behance.net/fernagom" target="_blank"><img class="icones box type-3"
+            src="icon/icons8-behance-squared.svg" alt="Behance"></a>
+        <a href="https://www.instagram.com/fernagom/" target="_blank"><img class="icones box type-5"
+            src="icon/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img class="icones box type-4" src="icon/tiktok.svg" alt="TikTok"></a>
+      </ul>
     </div>
-    
-  
-  </section>
+  </div>
 
-  <!-- PORTFOLIO 
-  <section class="section-3">
 
-    <div class="container">
-      <div class="portfolio box type-2">
-        <h1>PORTFOLIO</h1>
-      </div>
+</section>
+<!--</section>-->
 
-      <div class="box type-2 gallery-wrap">
-        <div class="item item-1"></div>
-        <div class="item item-2"></div>
-        <div class="item item-3"></div>
-        <div class="item item-4"></div>
-        <div class="item item-5"></div>
-        <div class="item item-6"></div>
-        <div class="box type-1">
-          <img src="IMG/linhas.svg" alt="">
-        </div>
-      </div>
-    </div>
-    </div>
-  --> 
-  </section>
- 
-  <section class="section-4">
+<footer>
+  <div>
+    <h1>Todos os direitos reservados.</h1>
+    <p>Spain • Galicia</p>
+  </div>
+</footer>
 
-<h1 class="box type-4">PORTFOLIO</h1>
-
-    <div class="gallery">
-      <div class="grid">
-        <div class="grid-item box type-5">
-          <span>LAYOUT</span>
-          <img src="IMG/ABRIL FINAL copy.jpg" alt="Imagem 1">
-        </div>
-        <div class="grid-item box type-2">
-          <span>MANIPULATION</span>
-          <img src="IMG/ANTARTICA.jpg" alt="Imagem 2">
-        </div>
-        <div class="grid-item box type-3">
-          <span>MANIPULATION</span>
-          <img src="IMG/FANTA.jpg" alt="Imagem 3">
-        </div>
-        <div class="grid-item box type-4">
-          <span>LOGO</span>
-          <img src="IMG/Post001 copy.jpeg" alt="Imagem 4">
-        </div>
-        <div class="grid-item box type-5">
-          <span>INTERFACE UI</span>
-          <img src="IMG/PAGES copy.jpg" alt="Imagem 5">
-        </div>
-        <div class="grid-item box type-3">
-          <span>MANIPULATION</span>
-          <img src="IMG/LAND2.jpg" alt="Imagem 6">
-        </div>
-        <div class="grid-item box type-2">
-          <span>LOGO</span>
-          <img src="IMG/PIU BELLA copy.jpg" alt="Imagem 7">
-        </div>
-        <div class="grid-item box type-3">
-          <span>LOGO</span>
-          <img src="IMG/CARROSSEL-INSTAGRAM_01.png" alt="Imagem 8">
-        </div>
-        <div class="grid-item box type-4">
-          <span>LAYOUT</span>
-          <img src="IMG/S copy.jpg" alt="Imagem 9">
-        </div>
-        <div class="grid-item box type-5">
-          <span>PHOTOGRAPHY AND MANIPULATION</span>
-          <img src="IMG/Burger.jpg" alt="Imagem 10">
-        </div>
-      </div>
-      <div class="lightbox">
-        <span class="close-btn">&times;</span>
-        <img class="lightbox-img" src="" alt="">
-      </div>
-    </div>
-    
-    <div class="fundoDoSlide">
-      <img src="IMG/linhas.svg" alt="">
-    </div>
-
-  </section>
-  <section class="section-5">Section 5</section>
-
-  <script src="efeito.js"></script>
+<script src="efeito.js"></script>
 </body>
 
 
 
 </html>
-
-
-
-

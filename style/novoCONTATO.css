@@ -1,0 +1,196 @@
+:root {
+    --cor-1: #101520;
+    --cor-2: #121e3b;
+    --cor-3: #ffa200;
+    --cor-4: #ab5a00;
+    --cor-5: #005b5a;
+    --cor-6: #343a40;
+    --cor-7: white;
+  }
+
+  .section-5 {
+    background-color: #ffa200;
+    display: flex;
+    justify-content: center
+   }
+
+.textcontac {
+    position: relative;
+  }
+  
+  .textcontac h1 {
+    color: var(--cor-4);
+    left: -15vw;
+    top: 17vw;
+    position: absolute;
+    transform: rotate(-90deg);
+    font-size: 6vw;
+    letter-spacing: -0.155em;
+    font-weight:bold;
+  }
+  
+  
+  
+  
+  .barracontato {
+background-color:var(--cor-4);
+width: 0.3vw;
+height: 17vw;
+margin-top: 2vw;
+border-radius: 1vw;
+  }
+  
+  /* FUNDO AZUL COM TODO CONTEÚDO */
+  .contatos {
+    margin-top: 5vw;
+    padding-top: 6vw;
+    width: 60vw;
+    height: 30vw;
+    background-color: #0f151d;
+    clip-path: polygon(100% 15%, 0 0, 0 85%, 100% 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4vw;
+    position: relative;
+    z-index: 1;
+  }
+  .incrivel {
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: 5vw;
+  }
+  .incrivel h1 {
+    font-weight: 200;
+  }
+
+   /* PARTE REDES SOCIAIS */
+  .redes{
+    position: absolute;
+    width: 60vw;
+    height: 20vw;
+    background-color: #0f151d;
+    clip-path: polygon(100% 25%, 0 0, 0 75%, 100% 100%);
+    margin-top: 37vw;
+  }
+
+  .contRedes {
+    color: var(--cor-3);
+    font-size: 1.5vw;
+    margin-left: -30vw;
+    margin-top: 3.7vw;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+  }
+
+
+  .icones {
+    width: 3vw;
+    padding: 1vw;
+  }
+  .icones:hover{
+      filter: brightness(1.5);
+  }
+
+
+  
+  
+    /* INPUTS */
+    aside {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      margin-top: -3vw;
+
+    }
+  
+  aside input {
+      background-color: var(--cor-3);
+      width: 21vw;
+      height: 3vw;
+      border-radius: 0.2vw;
+      margin-top: 0.6vw;
+      border: none;
+      padding-left: 1vw;
+  
+    }
+  
+    aside button {
+      background-color: #ffffff;
+      width: 21vw;
+      height: 2vw;
+      border-radius: 0.2vw;
+      border: none;
+      cursor: pointer;
+  
+    }
+    aside input::placeholder {
+      color: var(--cor-2);
+      font-size: 0.9vw;
+    }
+
+    aside h1 {
+      color: var(--cor-3);
+      margin-bottom: -0.6vw;
+      font-size: 2vw;
+    }
+  
+
+    .botaoenviar input {
+      position: absolute;
+      background-color: #ffffff;
+      width: 10vw;
+      height: 2vw;
+      border-radius: 0.2vw;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+    }
+    .botaoenviar input[type="submit"] {
+        font-size: 0.7vw;
+        color: var(--cor-3);
+      }
+
+
+
+    .iconesMSG::placeholder {
+      color: var(--cor-2);
+      text-align:justify;
+      line-height: 1vw;
+    }
+
+    
+  
+     textarea {
+      background-color: #ffa200;
+      width: 21vw;
+      height: 10vw;
+      border-radius: .3vw;
+      margin-top: .6vw;
+      border: none;
+      padding-left: 1vw;
+      resize: none;
+     }
+  
+     textarea::placeholder {
+      color: #0f151d;
+      padding-top: 0.7vw;
+      font-size: 0.9vw;
+    }
+  
+    
+  
+    .barraContato {
+      position: relative;
+      z-index: 1;
+    }
+    
+    .barraContato img {
+      position: absolute;
+      height: 30vw;
+      left: -30vw;
+      top: 24vw;
+
+    }
