@@ -9,13 +9,6 @@
   --cor-7: white;
 }
 
-
-
-
-@media screen and (max-width: 1280px) {
-
-}
-
 /* NOTEBOOK */
 @media screen and (min-width: 801px) {
 
@@ -24,6 +17,10 @@
     width: 40%;
     margin-top: -32vw;
     left: 50%;
+  }
+
+  .zapMobile {
+    display: none
   }
 
   .FotoFernando img {
@@ -44,7 +41,6 @@
 /* TABLET E HORIZONTAL MOBILE............................................................... */
 @media screen and (max-width: 801px) {
 
-  html { overflow-x: hidden; }
   
   .section-1 {
     height: 120vw;
@@ -52,12 +48,12 @@
   }
 
   .section-2 {
-    height: 180vw;
+    height: 155vw;
     background-color: var(--cor-1);
   }
 
   .section-4 {
-    height: 140vw;
+    height: 116vw;
     background-color: var(--cor-1);
   }
 
@@ -102,6 +98,7 @@
 
   .textoHomeMOBILE {
     padding-top: 5vw;
+    margin-top: 2vw;
   }
   .conteudoHOME {
     font-size: 5vw;
@@ -154,16 +151,13 @@
   }
 
   /* ...........................................................................SOBRE MIM */
-  .nomeSOBRE {
-    position: relative;
-  }
-
   .nomeSOBRE h1 {
+    white-space: none;
     position: absolute;
     width: 295px;
     height: 81px;
-    left: 5vw;
-    top: 5vw;
+    left: 0vw;
+    top: -10vw;
     font-weight: 900;
     font-size: 10vw;
     line-height: 90%;
@@ -178,15 +172,16 @@
 
   .linhaSOBREMIM img {
     position: absolute;
+    transform: scaleX(-1);
     width: 120vw;
-    left: -14vw;
-    top: 105px;
-    clip-path: polygon(0% 0%, 82% 0, 82% 100%, 0 100%);
+    left: -35vw;
+    top: 155px;
+
   }
 
   #basedoTextoSobre {
     width: 70vw;
-    height: 140vw;
+    height: 128vw;
     background-color: var(--cor-1);
     padding: 5vw;
     padding-top: 8vh;
@@ -207,9 +202,10 @@
   /* .................................................................................GALERIA */
 
   .fundoDoSlide img {
+    overflow-x: hidden;
     position: absolute;
     width: 140vw;
-    top: -50vw;
+    top: -40vw;
     animation: mover 1.5s forwards;
     animation-delay: 0.2s;
     animation-fill-mode: forwards;
@@ -255,6 +251,43 @@ display: none;
 .grid-item:hover span {
   display: none;
 }
+
+/* .................................................................................CONTATO */
+
+.zapMobile img {
+width: 10vw;
+}
+
+.textcontac h1 {
+  left: -29vw !important;
+  top: 23vw !important;
+  position: absolute;
+  transform: rotate(-90deg);
+  font-size: 10vw !important;
+
+}
+
+
+.section-5 {
+  height: 63vw ;
+}
+
+.contatos {
+  gap: 6vw !important; 
+}
+
+.zapMobile h1 {
+  font-size: 2vw;
+  text-align: center;
+  color: var(--cor-3);
+  margin-top: -2vw;
+  margin-left: -2vw;
+}
+
+aside {
+  display: none !important;
+}
+
 }
 
 

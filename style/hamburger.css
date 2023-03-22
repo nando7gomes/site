@@ -1,5 +1,4 @@
 
-
 :root {
   --cor-1: #101520;
   --cor-2: #121e3b;
@@ -9,6 +8,7 @@
   --cor-6: #343a40;
   --cor-7: white;
 }
+
 
 @media screen and (min-width: 801px) {
   .hamburguer {
@@ -96,6 +96,7 @@
     border-color: #fff;
   }
   .wrapper ul {
+     white-space: nowrap;
     position: absolute;
     top: 60%;
     left: 50%;
